@@ -1,0 +1,18 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <url value="https://example.org/fhir/StructureDefinition/MyPatient"/>
+   <name value="MyPatient"/>
+   <status value="draft"/>
+   <fhirVersion value="4.0.1"/>
+   <kind value="resource"/>
+   <abstract value="false"/>
+   <type value="Patient"/>
+   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+   <derivation value="constraint"/>
+   <differential>
+       <element id="Patient.gender">
+           <path value="Patient.gender"/>
+           <min value="1"/>
+           <max value="1"/>
+       </element>
+   </differential>
+</StructureDefinition>
