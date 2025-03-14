@@ -4,4 +4,4 @@ Install the tool Firely Terminal : https://simplifier.net/downloads/firely-termi
 Install latest version of python and robot framework.
 
 Run the tests : robot validate.robot <br>
-Run the tests without output : robot -o none validate.robot
+Run the tests without output : robot -o none -l none validate.robot
